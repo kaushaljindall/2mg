@@ -2,15 +2,7 @@
 
 A fully functional pharmacy e-commerce application where users can purchase organic and prescription-based medicines. The platform supports prescription uploads, admin/pharmacist approvals, and inventory management.
 
-## 🏗 Architecture
 
-```mermaid
-graph LR
-    User((User)) --> Client[Frontend (React + Vite)]
-    Client -->|REST API| Server[Backend (Node + Express)]
-    Server -->|Read/Write| DB[(MongoDB)]
-    Server -->|Store/Retrieve| FileSys[Local Uploads / Storage]
-```
 
 ## 🚀 Usage
 
